@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="toolbox">
+    <label for="">
+        Select Method:
+        <select id="selected-effect">
+            <option value="Fade">Fade</option>
+            <option value="Slide">Slide</option>
+
+        </select>
+    </label>
+
+    <label for="">
+        Select Duration:
+        <select name="" id="select-duration" >
+            <option value="0.5">0.5</option>
+            <option value="1">1</option>
+            <option value="1.5">1.5</option>
+            <option value="2">2</option>
+        </select>
+    </label>
+
+
+    <input type="button" id="large" value="+" />
+    <input type="button" id="small" value="-" />
+
+</div>
+
+
+<div class="container" align="center">
+        <img src="img/1.jpg" alt="" id="mainImg" >
+    <ul>
+        <li>
+            <img src="img/1.jpg" alt="" class="image-1">
+        </li>
+        <li>
+            <img src="img/2.jpg" alt="" class="image-2">
+        </li>
+      
+    </ul>
+    <ul>
+        <li>
+            <img src="img/3.jpg" alt="" class="image-3">
+        </li>
+        <li>
+            <img src="img/4.jpg" alt="" class="image-4">
+        </li>
+    </ul>
+</div>
+
+    <script src="jquery-3.6.4.min.js"></script>
+    <script src="myscript.js"></script>
+</body>
+</html>
